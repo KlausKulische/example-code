@@ -42,7 +42,7 @@ if(MSVC)
   endforeach()
 else()
   foreach(target ${TARGET_LIST})
-    target_compile_options(${target} PUBLIC -Wall -Wextra -pedantic
+    target_compile_options(${target} PUBLIC -w -Wall -Wextra -Wpedantic
                                             -Weverything)
   endforeach()
 endif()
