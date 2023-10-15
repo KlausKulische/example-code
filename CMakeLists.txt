@@ -28,7 +28,7 @@ add_subdirectory(src)
 
 add_subdirectory(lib)
 
-target_link_libraries(example lib)
+# target_link_libraries(example lib)
 
 enable_testing()
 
